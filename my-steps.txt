@@ -1,86 +1,118 @@
-### Step 2A
+### Step 2A.
 /c/Users/Apoll
 
 
 ### Step 2B
-/c/ Desktop
+cd OneDrive/desktop
 
 ### Step 2C
-cd unit1-git-practice
+cd OneDrive/desktop/unit1-git-practice
 
 ### Step 2D
-/Users/grandcircus/Desktop/unit1-git-practice
+/c/Users/Apoll/OneDrive/Desktop/unit1-git-practice
+
 
 ### Step 2E
+ls
 
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
-
+cd ~
+cd . .
+cd . .
 
 ### Step 2H
-
+cd /
 
 ### Step 2I
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
 
 
 ### Step 2J
-
+cd ~
 
 ### Step 2K
-
+ cd OneDrive/desktop/unit1-git-practice/
 
 
 ### Step 3A
+mkdri veggies
+mkdri meats
+mkdi desserts
 
 
 ### Step 3B
+ mv desserts sweets
 
 
 ### Step 3C
+ mkdir proteins
 
 
 ### Step 3D
+ mv meats proteins
 
 
 ### Step 3E
-
+cd veggies
+touch carrot.txt
+touch pea.txt
 
 ### Step 3F
+cd ..
+cd sweets
+touch cookie.txt
 
 
 ### Step 3G
-
+mv cookie.txt donut.txt
 
 ### Step 3H
-
+touch thing.txt
 
 ### Step 3I
-
+cp thing.txt tofu.txt
 
 ### Step 3J
-
+mv tofu.txt proteins
 
 ### Step 3K
-
+ cp thing.txt crab.txt
+ mv crab.txt proteins
+cd proteins 
+mv crab.txt meats
 
 ### Step 3L
-
+cd ..
+rm thing.txt
 
 ### Step 3M
+ cp -r veggies plants
 
 
 ### Step 3N
-
+mkdir drinks
+rm -r drinks
 
 
 ### Step 4
-
+git init
+git add .
+git status
+git commit -m "first commit"
 
 ### Step 5
-
+github.com / create new repository
+copy paste:
+git remote add origin https://github.com/Protondi23/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+verify login.
 
 ### Step 6
 
